@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -16,19 +17,131 @@
         <tr>
             <th>GUI</th>
             <th>CODE</th>
+            <th>DESCRIPTION</th>
         </tr>
         <tr>
             <td>Hi Bru! JAO AR IU</td>
-            <td>let nombre = "Hi Bru! JAO AR IU";<br/>
+            <td>let nombre = "Hi Bru! JAO AR IU";<br>
             document.write(nombre);
             </td>
+            <td>Variable declarada como "nombre" por la palabra <br>
+                reservada "let", esta variable puede adquirir <br>
+                cualquier tipo valor, como se muestra en "GUI".</td>
         </tr>
     </table>
 
      <h2>Primitivos</h2>
+     <p>
+        The primitiv variables are types of variable
+        more basic</p>
+        <table>
+            <tr>
+                <th>GUI</th>
+                <th>CODE</th>
+                <th>TYPE</th>
+                <th>DESCRIPTION</th>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>let numero = 8;<br/>
+                document.write(numero);
+                </td>
+                <td>int or integer</td>
+                <td>Este tipo de varible solo puede <br>
+                contener números y decimales</td>
+            </tr>
+            <tr>
+                <td>Exito 4ever</td>
+                <td>let texto = "Exito 4ever";<br/>
+                document.write(texto);</td>
+                <td>string</td>
+                <td>Este tipo de variable solo puede <br>
+                contener textos o letras</td>
+            </tr>
+            <tr>
+                <td>false</td>
+                <td>let bipolar = false;<br/>
+                document.write(bipolar);</td>
+                <td>bolean</td>
+                <td>Este tipo de variable solo puede <br>
+                contener "false" o "true"</td>
+            </tr>
+            <tr>
+                <td>undefined <br>
+                undefined
+                </td>
+                <td>let noDefinido = undefined;<br/>
+                document.write(noDefinido);<br>
+                let noDef;<br>
+                document.write(noDef;)</td>
+                <td>undefined</td>
+                <td>Esta variable no tiene definido<br>
+                un tipo</td>
+            </tr>
+            <tr>
+                <td>null</td>
+                <td>let vacio = null;<br/>
+                document.write(vacio);</td>
+                <td>null</td>
+                <td>Esta variable esta vacia o sin datos</td>
+            </tr>
+        </table>
+
      <h2>Constantes</h2>
+     <p>This type of declaration it can't be changed later</p>
+     <table>
+        <tr>
+            <th>GUI</th>
+            <th>CODE</th>
+            <th>DESCRIPTION</th>
+        </tr>
+        <tr>
+            <td>jamás cambiaré</td>
+            <td>const noCambia = "jamás cambiaré"; <br>
+            document.write(noCambia);</td>
+            <td>Cuando declaras con "const" la variable tendra <br>
+                 siempre ese tipo y valor</td>
+        </tr>
+     </table>
+
      <h2>Tipado Dinamico</h2>
+     <p>This way of declared a variable it can be change in the future</p>
+     <table>
+        <tr>
+            <th>GUI</th>
+            <th>CODE</th>
+            <th>DESCRIPTION</th>
+        </tr>
+        <tr>
+            <td>antes era 3</td>
+            <td>let numero = 3; <br>
+            numero = "antes era 3"; <br>
+            document.write(numero);</td>
+            <td>Declarar con "let" hace que luego puedas <br>
+            volver a darle otro tipo y/o valor las veces <br>
+            que quieras</td>
+        </tr>
+     </table>
+
      <h2>Comentarios</h2>
+     <p>This useful for to commend the code and to undertand it</p>
+     <table>
+        <tr>
+            <th>GUI</th>
+            <th>CODE</th>
+            <th>DESCRIPTION</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td>//doble slash para comentarios de 1 linea <br>
+            /* y este para varias lineas. Los comentarios <br>
+            no se muestran jamas en el GUI */</td>
+            <td>Los comentarios son hechos con "//" para <br>
+            una linea o "/*"para abrir el cometario en <br>
+            varias lineas y "*/" para indicar donde termina </td>
+        </tr>
+     </table>
+
      <h2>Objetos</h2>
      <h2>Arrays</h2>
      <h2>Funciones</h2>
